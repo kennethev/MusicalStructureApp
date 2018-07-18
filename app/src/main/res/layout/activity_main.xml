@@ -5,16 +5,25 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+android:background="@color/green_background"
 android:orientation="vertical">
 
-<TextView
+    <TextView
     android:id="@+id/rock"
     style="@style/CategoryStyle"
+    android:background="@color/category_rock"
     android:text="@string/category_rock"/>
 
     <TextView
         android:id="@+id/Jazz"
         style="@style/CategoryStyle"
+        android:background="@color/category_jazz"
         android:text="@string/category_jazz"/>
+
+    <TextView
+        android:id="@+id/rhythm"
+        style="@style/CategoryStyle"
+        android:background="@color/category_rhythm"
+        android:text="RHYTHM and BLUES"/>
 
 </LinearLayout>

@@ -22,7 +22,9 @@ public class RockActivity extends AppCompatActivity {
         songs.add ( new Song ( "Ants Marching", "Dave Matthews Remember Two Things" ) );
         songs.add ( new Song ( "Grey Street", "Dave Matthews Busted Stuff " ) );
         songs.add ( new Song ( "Satellite", "Dave Matthews Under the Table and Dreaming" ) );
-
+        songs.add ( new Song ( "I am Mine", "Pearl Jam Riot Act" ) );
+        songs.add ( new Song ( "Indifference", "Pearl Jam Vs." ) );
+        songs.add ( new Song ( "Jeremy", "Pearl Jam Ten" ) );
 
         SongAdapter adapter = new SongAdapter ( this, songs );
 
@@ -52,7 +54,7 @@ public class RockActivity extends AppCompatActivity {
                     Intent rockIntent = new Intent ( MainActivity.this, RockActivity.class );
                     startActivity ( rockIntent );
                 }
-            } );
+            });
 
             //Find View that shows JAZZ category
             TextView jazz = (TextView) findViewById ( R.id.Jazz );
@@ -65,6 +67,19 @@ public class RockActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent jazzIntent = new Intent ( MainActivity.this, JazzActivity.class );
                     startActivity ( jazzIntent );
+                }
+            });
+                //Find View that shows Rhythm and Blues category
+            TextView rhythm = (TextView) findViewById ( R.id.rhythm );
+
+            //Set a click listener on the view
+            rhythm.setOnClickListener ( new View.OnClickListener () {
+
+                //The code in this method will be executed when rhythm view is clicked on
+                @Override
+                public void onClick(View view) {
+                    Intent rhythmIntent = new Intent ( MainActivity.this, RhythmActivity.class );
+                    startActivity ( rhythmIntent );
                 }
             });
 

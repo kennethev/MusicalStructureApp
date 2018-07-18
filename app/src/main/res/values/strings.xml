@@ -4,13 +4,14 @@
         <!-- Category name for Classic Rock [CHAR LIMIT=20] -->
 <string name="category_rock">CLASSIC ROCK</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <!-- Category name for the R & B  [CHAR LIMIT=20] -->
+    <string name="category_rhythm">RHYTHM and BLUES</string>
+
     !-- Category name for jazz [CHAR LIMIT=20] -->
     <string name="category_jazz">JAZZ</string>
 
 
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
 
     </resources>
 

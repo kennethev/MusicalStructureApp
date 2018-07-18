@@ -22,6 +22,9 @@
         <activity android:name=".JazzActivity"
             android:label= "@string/category_jazz">
         </activity>
+        <activity android:name=".RhythmActivity"
+            android:label= "@string/category_rhythm">
+        </activity>
 
     </application>
 

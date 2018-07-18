@@ -35,4 +35,3 @@ public class SongAdapter  extends ArrayAdapter<Song> {
     }
 
 
-
