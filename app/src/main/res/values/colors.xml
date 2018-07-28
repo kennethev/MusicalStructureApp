@@ -8,14 +8,15 @@
     <color name="primary_dark_color">#2F1D1A</color>
 
 
+
     <!-- Background color for app -->
     <color name="green_background">#689F38</color>
 
-    <!-- Background color for the rock category -->
-    <color name="category_rock">#FD8E09</color>
+    <!-- Background color for the rhythm  category -->
+    <color name="category_rhythm">#FD8E09</color>
 
-    <!-- Background color for the rhythm category -->
-    <color name="category_rhythm">#8BC34A</color>
+    <!-- Background color for the rock category -->
+    <color name="category_rock">#8BC34A</color>
 
     <!-- Background color for the jazz category -->
     <color name="category_jazz">#448AFF</color>
