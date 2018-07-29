@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
 
-        ListView lv = (ListView) findViewById ( R.id.lv );
+
 
         //Find View that shows classic rock category
         TextView rock = (TextView) findViewById ( R.id.rock );
@@ -64,13 +64,6 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
-        lv.setOnItemClickListener ( new AdapterView.OnItemClickListener () {
-            @Override
-            public void onItemClick(AdapterView <?> parent, View view, int position, long id) {
 
-                Toast.makeText (getApplicationContext (),"Sorry forgot to add music. Come back later.",Toast.LENGTH_SHORT).show();
-            }
-
-        } );
     }
 }

@@ -3,7 +3,7 @@ package com.example.android.musicalstructureapp;
 public class Song {
     //** Represents the song we want to find */
 
-        //**Song title of of word*/
+        //**Song titles */
         private String mSong;
 
         //**Album and artist of  title of song*/
